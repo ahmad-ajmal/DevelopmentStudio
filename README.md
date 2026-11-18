@@ -9,7 +9,7 @@ Requires Node 22+, npm and Git for repository operations. Windows is the verifie
 ```powershell
 npm ci
 # Only for a newly extracted package: provision fresh identity, port and authority.
-npm run framework -- . import --blueprint blueprint-dev-studio
+npm run framework -- . import --blueprint blueprint-react-node
 npm run framework -- . serve
 ```
 

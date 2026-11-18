@@ -1,4 +1,9 @@
 # CraftBot compatibility
+## Local installation test — 18 November 2026
+Development Studio now records `blueprint-react-node`. CraftBot's real catalogue, inspection and installation handlers were tested with the local Agent-App branch `codex/external-marketplace-sources` and an isolated app registry. Installation passed dependency installation, the framework gate and managed startup; CraftBot attached the app to a new conversation. The installer used the standard toolkit from that framework checkout, preserved all six modules and assigned a fresh app identity. A2App identity and module discovery both succeeded.
+
+The test used uncommitted app files through a local catalogue based on the staging entry. At the time of this test, staging still pinned the earlier commit. Publication requires updating that pin to the approved new commit and repeating installation from staging. This test covers installation, not a new agent coding round trip or full IDE acceptance run.
+
 ## Current boundary — 29 October 2026
 CraftBot remains unchanged. Studio now connects through the existing authenticated local chat/session interface. Start CraftBot normally and choose Settings → Agents → Connect CraftBot. Its backend defaults to port 7926; the address can be changed in Studio. No host patch, native import, trusted framework checkout or capability allowlist is needed for this route.
 

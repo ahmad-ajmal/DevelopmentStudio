@@ -1,5 +1,6 @@
 # Development Studio — first release
 Binding scope: reference/requirements.md. Framework pin: framework.lock.json.
+Installation now selects the standard blueprint-react-node toolkit (18 November 2026). The original bundled framework packages remain pinned; imports preserve the app's six modules. The local CraftBot installation test passed. Publication and a staging install retest are authorized; CraftBot and Agent-App source changes remain uncommitted.
 The user approved all first-release milestones on 25 October 2026. See reference/RELEASE_PLAN.md and the appended requirements; complete the local development workspace.
 ## Modules
 workspace, workbench, execution, changes, agents, settings.
